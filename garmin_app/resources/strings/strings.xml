@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<strings>
+  <string id="AppName">Sailing</string>
+  <string id="LabelSog">SOG</string>
+  <string id="LabelCog">COG</string>
+  <string id="LabelDepth">DEPTH</string>
+  <string id="LabelWind">WIND</string>
+  <string id="LabelNoData">--</string>
+  <string id="UnitKnots">kt</string>
+  <string id="UnitMeters">m</string>
+  <string id="UnitDegrees">°</string>
+  <string id="LabelTws">TWS</string>
+  <string id="LabelTwd">TWD</string>
+  <string id="LabelAws">AWS</string>
+  <string id="LabelAwa">AWA</string>
+  <string id="LabelWaiting">Waiting for data…</string>
+</strings>

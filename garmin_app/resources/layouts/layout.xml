@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--
+  MainLayout – placeholder used by SailingView.onLayout().
+  The actual drawing is done programmatically in onUpdate() so that
+  the same source works across all screen shapes and sizes.
+-->
+<layout id="MainLayout">
+</layout>
