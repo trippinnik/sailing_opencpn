@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+  <iq:application
+    entry="SailingApp"
+    id="a3421fee-7777-4dab-93e7-b68bfd7b1234"
+    launchType="glance"
+    minApiLevel="3.1.0"
+    name="@Strings.AppName"
+    type="watchapp"
+    version="1.0.0">
+
+    <!-- Target devices – extend this list as needed -->
+    <iq:products>
+      <iq:product id="fenix6"/>
+      <iq:product id="fenix6s"/>
+      <iq:product id="fenix6x"/>
+      <iq:product id="vivoactive4"/>
+      <iq:product id="vivoactive4s"/>
+      <iq:product id="forerunner245"/>
+      <iq:product id="forerunner945"/>
+    </iq:products>
+
+    <!-- Required permissions -->
+    <iq:permissions>
+      <!-- Receive messages pushed from the phone companion app -->
+      <iq:uses-permission id="Communications"/>
+    </iq:permissions>
+
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+  </iq:application>
+</iq:manifest>
